@@ -25,7 +25,7 @@ my_project/
 
 The following PowerShell commands can be used to perform the bundling:
 
-### Bundle All Files
+## Bundle All Files
 
 To bundle all JavaScript files from the `src` directory into `bundle.js`, use:
 
@@ -33,7 +33,7 @@ To bundle all JavaScript files from the `src` directory into `bundle.js`, use:
 Get-Content src\*.js | Set-Content dist\bundle.js
 ```
 
-### Bundle Specific Files
+## Bundle Specific Files
 
 To bundle specific JavaScript files, use:
 
