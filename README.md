@@ -6,6 +6,7 @@ This repository contains a simple script to bundle JavaScript files from a `src`
 
 Here is an overview of the project structure:
 
+<pre>
 my_project/
 ├── src/
 │ ├── file1.js
@@ -14,6 +15,7 @@ my_project/
 ├── dist/
 │ └── (empty initially) // bundle.js (combined JavaScript file)
 ├── index.html // references bundle.js
+</pre>
 
 - **`src/`**: Contains individual JavaScript files to be bundled.
 - **`dist/`**: Initially empty; will contain the `bundle.js` file after bundling.
