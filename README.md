@@ -36,3 +36,11 @@ To bundle specific JavaScript files, use:
 ```powershell
 Get-Content src\file1.js, src\file2.js, src\file3.js | Set-Content dist\bundle.js
 ```
+
+## Contributing
+
+Feel free to submit issues or pull requests to improve the script.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
