@@ -9,11 +9,11 @@ Here is an overview of the project structure:
 <pre>
 my_project/
 ├── src/
-│ ├── file1.js
-│ ├── file2.js
-│ └── file3.js
+│   ├── file1.js
+│   ├── file2.js
+│   └── file3.js
 ├── dist/
-│ └── (empty initially) // bundle.js (combined JavaScript file)
+│   └── (empty initially) // bundle.js (combined JavaScript file)
 ├── index.html // references bundle.js
 </pre>
 
@@ -23,8 +23,20 @@ my_project/
 
 ## Script Description
 
-The following PowerShell command is used to perform the bundling:
+The following PowerShell commands can be used to perform the bundling:
+
+### Bundle All Files
+
+To bundle all JavaScript files from the `src` directory into `bundle.js`, use:
 
 ```powershell
 Get-Content src\*.js | Set-Content dist\bundle.js
+```
+
+### Bundle Specific Files
+
+To bundle specific JavaScript files, use:
+
+```powershell
+Get-Content src\file1.js, src\file2.js, src\file3.js | Set-Content dist\bundle.js
 ```
