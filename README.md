@@ -21,10 +21,6 @@ my_project/
 - **`dist/`**: Initially empty; will contain the `bundle.js` file after bundling.
 - **`index.html`**: HTML file that includes the `bundle.js` script.
 
-## Script Description
-
-The following PowerShell commands can be used to perform the bundling:
-
 ## Bundle All Files
 
 To bundle all JavaScript files from the `src` directory into `bundle.js`, use:
